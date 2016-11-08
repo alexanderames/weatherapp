@@ -18,3 +18,13 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#myDiv {
+	-webkit-border-radius: 68px;
+	-moz-border-radius: 68px;
+	border-radius: 68px;
+	}

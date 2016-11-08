@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'thin'
 #bootstrap it up, yo
 gem 'bootstrap-sass'
 gem 'wunderground'
