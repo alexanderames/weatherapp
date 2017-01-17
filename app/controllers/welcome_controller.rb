@@ -27,17 +27,17 @@ class WelcomeController < ApplicationController
   @real_feel_c = response['current_observation']['feelslike_c']
 
   if @weather_words == "Overcast"
-    	@url = "http://cloud-maven.com/wp-content/uploads/2014/08/DSC_0367.jpg"
+    	@url = "assets/overcast.jpg"
     elsif @weather_words == "Clear"
-    	@url = "https://hd.unsplash.com/photo-1466837838619-c8f5b8f0c166.jpg"
+    	@url = "assets/clear.jpg"
     elsif @weather_words == "Partly Cloudy"
-    	@url = "http://wallpoper.com/images/00/44/82/22/cloudy_00448222.jpg"
-    elsif @weather_words == "Mostly Cloudy"
-    	@url = "https://hd.unsplash.com/photo-1457903685934-249e8108a246.jpg"
+    	@url = "assets/partly.jpg"
+    elsif @weather_words == "Rain"
+    	@url = "assets/rain.jpg"
     elsif @weather_words == "Snow"
-    	@url = "http://host2post.com/server13/photos/S1H-6hjE6S1FUM~/wallpapers-trees-full-snow-cold-weather-december-mountains.jpg"
+    	@url = "assets/snow.jpg"
     else 
-    	@url = "http://wallpoper.com/images/00/44/71/54/rainy-weather_00447154.jpg"
+    	@url = "assets/otherwise.jpg"
     end
   end
 
