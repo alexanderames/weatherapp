@@ -29,11 +29,11 @@ class WelcomeController < ApplicationController
   if @weather_words == "Overcast"
     	@url = "http://cloud-maven.com/wp-content/uploads/2014/08/DSC_0367.jpg"
     elsif @weather_words == "Clear"
-    	@url = "https://hd.unsplash.com/photo-1466837838619-c8f5b8f0c166"
+    	@url = "https://hd.unsplash.com/photo-1466837838619-c8f5b8f0c166.jpg"
     elsif @weather_words == "Partly Cloudy"
     	@url = "http://wallpoper.com/images/00/44/82/22/cloudy_00448222.jpg"
     elsif @weather_words == "Mostly Cloudy"
-    	@url = "https://hd.unsplash.com/photo-1457903685934-249e8108a246"
+    	@url = "https://hd.unsplash.com/photo-1457903685934-249e8108a246.jpg"
     elsif @weather_words == "Snow"
     	@url = "http://host2post.com/server13/photos/S1H-6hjE6S1FUM~/wallpapers-trees-full-snow-cold-weather-december-mountains.jpg"
     else 
